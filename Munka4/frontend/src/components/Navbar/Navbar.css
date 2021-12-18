@@ -1,0 +1,39 @@
+
+
+.logo{
+    flex-grow: 3;
+}
+.navbar-content div span{
+    cursor: pointer;
+}
+.kapcsolat > span{
+    border: 1px solid;
+    width: fit-content;
+}
+.hover-underline{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+.hover-underline:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: rgb(39, 39, 39);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .hover-underline:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
