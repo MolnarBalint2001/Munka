@@ -5,7 +5,7 @@
 
 
 .app{
-  overflow-x: hidden;
+  overflow:hidden;
 }
 
 #header{
@@ -136,5 +136,65 @@
 
 #p-info:hover #p-icon{
   transform: scale(1.3);
+}
+
+
+#send-btn{
+  border:1px solid grey;
+  padding: 8px;
+  width: 140px;
+  margin: 60px auto;
+  transition: 0.3s ease-in-out;
+}
+
+
+#send-btn:hover{
+  background-color: orange;
+  color: white;
+}
+
+#textarea{
+  background-color: transparent;
+  border: 1px solid grey;
+  transition: 0.3s ease-in-out;
+}
+
+#textarea:hover{
+  border: 1px solid orange;
+}
+
+#form input{
+  background-color: transparent;
+  border: 3px solid grey;
+  padding: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+#form input:hover{
+  border:1px solid orange;
+}
+
+#f-col1 div{
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+  border-left: 3px solid rgb(39, 39, 39);
+  
+}
+#f-col1 div:hover{
+    border-left: 3px solid orange;
+
+}
+
+
+
+#f-col2 div{
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+  border-left: 3px solid rgb(39, 39, 39);
+  
+}
+#f-col2 div:hover{
+    border-left: 3px solid orange;
+
 }
 

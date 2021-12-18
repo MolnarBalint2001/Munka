@@ -10,6 +10,7 @@ import { AboutTitle } from './components/AboutTitle';
 import { Team } from './components/Team';
 import { Projects } from './components/Projects';
 import { ProjectsTitle } from './components/ProjectsTitle';
+import { Footer } from './components/Footer';
 
 
 
@@ -29,7 +30,7 @@ export default function App() {
       <Team/>
       <ProjectsTitle/>
       <Projects/>
-
+      <Footer/>
 
     </div>
 
