@@ -1,0 +1,9 @@
+#intro-btn:hover{
+    background-color: rgb(90, 166, 236);
+    cursor: pointer;
+}
+
+#intro-btn:hover #intro-icon{
+    margin-left:40px;
+    transform: scale(1.4);
+}
