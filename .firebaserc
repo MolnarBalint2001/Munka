@@ -1,5 +1,20 @@
 {
   "projects": {
     "default": "tempaltes-demo"
+  },
+  "targets": {
+    "tempaltes-demo": {
+      "hosting": {
+        "template1": [
+          "template1-demo"
+        ],
+        "template2": [
+          "template2-demo"
+        ],
+        "template3": [
+          "template3-demo"
+        ]
+      }
+    }
   }
 }

@@ -4,12 +4,10 @@ import { imagePaths,image } from "../ref/vars"
 
 export default function ImageViewer(){
     const [counter,setCounter] = useState<number>(0)
-
     useEffect(()=>{
         const int = setInterval(()=>{
             setCounter(counter+1)
-            console.log(counter)
-        },2000)
+        },10000)
         return ()=>{
             clearInterval(int)
         }
