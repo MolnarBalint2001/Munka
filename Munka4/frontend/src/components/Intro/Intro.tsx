@@ -4,27 +4,27 @@ import intro from "../../images/intro.png"
 import "./Intro.css"
 
 
+
 export const Intro = () =>{
 
 
     return(
-        <div className="grid place-items-center m-12 lg:grid-cols-3 bg-slate-100">
 
-            <div className="m-12 grid grid-cols-1 gap-y-8 place-items-start">
-                <div className="text-orange-800 lg:text-8xl text-left font-semibold text-sky-900 ">Mi építjük a jövőt</div>
-                <div className="text-justify lg:w-[400px] lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quaerat rerum magni debitis in eaque iure? Ab incidunt consequatur officiis quibusdam nostrum perferendis dolorum sequi ipsam amet quia veniam quod repudiandae asperiores molestias voluptas, cum obcaecati sed ipsum? Quaerat velit sequi in atque! Nostrum deleniti id consequatur mollitia officiis in?</div>
-                <div id="intro-btn" className="bg-sky-600 text-white p-4 flex flex-row space-x-8 items-center duration-300">
-                    <div className="lg:text-3xl">Fedezze fel</div>
-                    <span className="text-3xl duration-300 font-bold" id="intro-icon">
-                        {">"}
-                    </span>
-                </div>
-            </div>
+      <div className="bg-slate-100 mt-[10vh] grid grid-cols-1 gap-y-8 place-items-center xl:grid-cols-2 xl:m-12 xl:gap-y-20">
 
-            <div className="col-span-2">
-                <img src={intro}  className="lg:h-[1000px] lg:w-fit transfrom"/>
-            </div>
+        <div className="m-12 grid grid-cols-1 gap-y-10 place-items-center w-[240px] md:w-[400px] lg:w-[500px] 2xl:w-[700px] xl:place-items-start xl:text-left">
+
+            <div className="text-2xl font-semibold text-sky-900 md:text-4xl lg:text-6xl xl:text-8xl">Mi építjük a jövőt</div>
+            <div className="text-justify md:text-xl xl:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis saepe magnam, itaque ipsam nam beatae exercitationem numquam. Ipsum, facere accusamus molestias magni minima delectus consectetur quisquam aspernatur officia vero maiores, quas blanditiis quaerat! Temporibus, commodi minima? Amet mollitia quia expedita!</div>
+            <div className="bg-sky-600 text-white p-2 text-xl md:text-2xl">Fedezze fel</div>
+
         </div>
+
+        <div className="xl:place-self-end">
+            <img src={intro} />
+        </div>
+
+      </div>
     );
 }
 
