@@ -17,7 +17,7 @@ export const Intro = () =>{
 
             <div className="text-2xl font-semibold text-sky-900 md:text-4xl lg:text-6xl xl:text-8xl">Mi építjük a jövőt</div>
             <div className="text-justify md:text-xl xl:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis saepe magnam, itaque ipsam nam beatae exercitationem numquam. Ipsum, facere accusamus molestias magni minima delectus consectetur quisquam aspernatur officia vero maiores, quas blanditiis quaerat! Temporibus, commodi minima? Amet mollitia quia expedita!</div>
-            <div className="bg-sky-600 text-white p-2 text-xl md:text-2xl">Fedezze fel</div>
+            <div className="bg-sky-600 text-white p-2 text-xl md:text-2xl hover:bg-orange-400">Fedezze fel</div>
 
         </div>
 
