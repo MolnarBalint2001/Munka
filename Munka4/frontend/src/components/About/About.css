@@ -3,9 +3,11 @@
     margin: 1rem auto;
     border: 0.5px solid rgba(118, 118, 118, 0.578);
 }
-.about{
+
+.about-c {
     overflow: hidden;
 }
-.con-image{
+
+.con-image {
     border-radius: 0 10% 0 10%;
 }

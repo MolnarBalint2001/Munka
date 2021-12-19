@@ -1,0 +1,12 @@
+.service-title {
+    border-left: 10px solid rgb(246 173 85);
+    margin: 5vh auto;
+}
+
+.services-grid>div {
+    padding: 2vh;
+    border: 3px solid rgb(246 173 85);
+    border-radius: 5vh 0 5vh 0;
+}
+
+.services-grid>div>p {}

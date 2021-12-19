@@ -8,7 +8,7 @@ export default function About() {
         AOS.init({ once: false, duration: 1000 })
     }, [])
     return (
-        <div className="about m-12 mt-[20vh]">
+        <div className="about-c m-12 mt-[20vh]">
             <div className="about-content flex flex-col lg:flex-row lg:space-x-[10rem]">
                 <div className="images grow-[1.5] shrink basis-0 order-2 lg:order-1">
                     <div className="images-content grid">
