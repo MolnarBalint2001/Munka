@@ -12,12 +12,7 @@ import { Projects } from './components/Projects';
 import { ProjectsTitle } from './components/ProjectsTitle';
 import { Footer } from './components/Footer';
 
-
-
-
-
 export default function App() {
-
   return (
 
    
